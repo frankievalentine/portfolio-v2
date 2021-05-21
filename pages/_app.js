@@ -31,6 +31,16 @@ const GlobalStyle = ({children}) => {
             flex-direction: column;
             min-height: 100vh;
           }
+          a {
+            color: #a2563eb;
+            text-decoration: none;
+          }
+          * {
+            box-sizing: border-box;
+          }
+          h1 {
+            font-weight: 800;
+          }
         `}
       />
       {children}
